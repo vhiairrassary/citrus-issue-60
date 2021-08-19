@@ -1,9 +1,11 @@
+# Citrus issue #60
+
 https://github.com/mjackson/citrus/issues/60
 
 
 To reproduce the error run the program using: `ruby main.rb` (be sure to use ruby 3.0).
 
-The parser is parsing the same expression indefinitively until it crash at some point with the following stack trace:
+The parser is parsing the same expression indefinitively until it crashes at some point with the following stack trace:
 
 ```
 /Users/vhiairrassary/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/citrus-3.0.2/lib/citrus.rb:1216: [BUG] Segmentation fault at 0x00000002b1f48000
